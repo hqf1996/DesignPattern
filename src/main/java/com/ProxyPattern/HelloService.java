@@ -8,5 +8,5 @@ package com.ProxyPattern;
  */
 public interface HelloService {
     String hello(String name);
-    String hi(String msg);
+    String hi(String msg); 
 }

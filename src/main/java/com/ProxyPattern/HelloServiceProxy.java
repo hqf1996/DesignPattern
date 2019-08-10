@@ -15,19 +15,19 @@ public class HelloServiceProxy implements HelloService {
 
     @Override
     public String hello(String name) {
-        System.out.println("预处理");
+        System.out.println("预处理...");
         String result = helloService.hello(name);
         System.out.println(result);
-        System.out.println("处理后");
+        System.out.println("处理后...");
         return result;
     }
 
     @Override
     public String hi(String msg) {
-        System.out.println("预处理");
+        System.out.println("预处理...");
         String result = helloService.hi(msg);
         System.out.println(result);
-        System.out.println("处理后");
+        System.out.println("处理后...");
         return result;
     }
 }
