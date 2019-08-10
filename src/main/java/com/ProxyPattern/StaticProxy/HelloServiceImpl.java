@@ -1,4 +1,4 @@
-package com.ProxyPattern;
+package com.ProxyPattern.StaticProxy;
 
 /**
  * @Author: hqf

@@ -1,4 +1,4 @@
-package com.ProxyPattern;
+package com.ProxyPattern.StaticProxy;
 
 /**
  * @Author: hqf
@@ -17,6 +17,5 @@ public class myMian {
         HelloServiceProxy helloServiceProxy = new HelloServiceProxy(helloService);
         helloServiceProxy.hello("abc");
         helloServiceProxy.hi("cba");
-
     }
 }
